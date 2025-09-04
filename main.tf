@@ -7,6 +7,9 @@ resource "aws_instance" "name" {
   }
 
 }
-resource "aws_s3_bucket" "name" {
-    bucket = "ajacivillbrce"
- 
+
+resource "aws_s3_bucket" "nag" {
+    bucket = "rajacivillbrce"
+  
+}
+
