@@ -1,6 +1,6 @@
 resource "aws_instance" "name" {
   ami = "ami-0de716d6197524dd9"
-  instance_type = "t2.medium"
+  instance_type ="t2.nano" 
   availability_zone = "us-east-1d"
   tags = {
     Name = "raja"
@@ -12,4 +12,3 @@ resource "aws_s3_bucket" "nag" {
     bucket = "rajacivillbrce"
   
 }
-
