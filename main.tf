@@ -3,11 +3,10 @@ resource "aws_instance" "name" {
   instance_type = "t2.medium"
   availability_zone = "us-east-1d"
   tags = {
-    Name = "nag"
+    Name = "raja"
   }
 
 }
 resource "aws_s3_bucket" "name" {
-    bucket = "rajacivillbrce"
-  
-}
+    bucket = "ajacivillbrce"
+ 
