@@ -1,6 +1,8 @@
-resource "aws_instance" "resource" {
+ggresource "aws_instance" "resource" {
   ami = "ami-0de716d6197524dd9"
+<<<<<<< HEAD
   instance_type ="t2.medium" 
+
   availability_zone = "us-east-1d"
   tags = {
     Name = "raja"
